@@ -6,6 +6,7 @@ create_vm_aws_instance_size: t2.micro
 create_vm_aws_tenancy: default
 create_vm_aws_ec2_wait: true
 create_vm_aws_userdata_template: default
+create_vm_volume_size: 30
 # Tag Defaults
 create_vm_vm_name: demo_vm
 create_vm_vm_deployment: default
