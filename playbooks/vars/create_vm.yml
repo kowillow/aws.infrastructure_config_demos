@@ -3,3 +3,4 @@ create_vm_aws_tenancy: default
 create_vm_aws_profile: default
 create_vm_instance_type: t3.micro
 create_vm_instance_name: test_vm
+create_vm_volume_size: 30
