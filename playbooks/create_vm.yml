@@ -4,7 +4,7 @@
   connection: local
   gather_facts: false
   vars_files:
-    - "vars/vm_blueprints/{{vm_blueprint}}.yml"
+    - "vars/vm_blueprints/{{create_vm_vm_blueprint}}.yml"
   tasks:
     - name: Fail if variables not defined
       ansible.builtin.assert:
